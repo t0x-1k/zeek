@@ -1,7 +1,7 @@
 # See the file "COPYING" in the main distribution directory for copyright.
 
 # Layer to build Zeek.
-FROM debian:bookworm-slim
+FROM debian:12.6-slim
 
 RUN echo 'Acquire::Retries "3";' > /etc/apt/apt.conf.d/80-retries
 
