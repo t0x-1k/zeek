@@ -1,7 +1,7 @@
 # See the file "COPYING" in the main distribution directory for copyright.
 
 # Final layer containing all artifacts.
-FROM debian:12.11-slim
+FROM debian:bookworm-20250929-slim
 
 RUN echo 'Acquire::Retries "3";' > /etc/apt/apt.conf.d/80-retries
 
